@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 1</name>
+   <tag>Regression</tag>
+   <comment></comment>
+   <testCaseGuid>ab4a657d-63a3-4577-af5c-6cb204aae317</testCaseGuid>
+</TestCaseEntity>
