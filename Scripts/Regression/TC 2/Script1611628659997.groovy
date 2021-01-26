@@ -17,9 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.TestSiteHerokuapp)
 
-WebUI.click(findTestObject('TC 2/JavaScript Alerts'))
+WebUI.click(findTestObject('Page JavaScript Alerts/JavaScript Alerts'))
 
-WebUI.click(findTestObject('TC 2/Click for JS Alert'))
+WebUI.click(findTestObject('Page JavaScript Alerts/Click for JS Alert'))
 
 WebUI.delay(2)
 

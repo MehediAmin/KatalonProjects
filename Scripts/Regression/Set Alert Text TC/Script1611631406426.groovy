@@ -19,17 +19,19 @@ WebUI.openBrowser(GlobalVariable.TestSiteHerokuapp)
 
 WebUI.click(findTestObject('Page JavaScript Alerts/JavaScript Alerts'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page JavaScript Alerts/Click for JS Confirm'))
+WebUI.click(findTestObject('Page JavaScript Alerts/Click for JS Prompt'))
 
 WebUI.delay(2)
 
-WebUI.dismissAlert()
+WebUI.setAlertText('Katalon')
 
 WebUI.delay(2)
 
-WebUI.verifyTextPresent('You clicked: Cancel', false)
+WebUI.acceptAlert()
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('You entered: Katalon', false)
 
 WebUI.closeBrowser()
 
