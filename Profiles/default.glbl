@@ -9,4 +9,9 @@
       <initValue>'https://www.w3schools.com/'</initValue>
       <name>WebURL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://the-internet.herokuapp.com/'</initValue>
+      <name>TestSiteHerokuapp</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
